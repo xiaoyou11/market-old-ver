@@ -1,0 +1,12 @@
+1.导入脚本：src/main/resources/script/sql0311.sql
+
+2.修改配置文件：src/main/resources/resource.properties
+
+3.启动服务 ：jetty:run  (端口号6912已经配置在pom文件中)
+
+4.打开浏览器访问：http://localhost:6912/run
+
+5.进入页面可以看到 ==报表管理== 已经集成
+
+	--5.1. 报表文件放置在了 src/main/webapp/resources/report 文件夹中
+	--5.2. 工程是用iframe嵌入的方式,请参考：ST.Base.Home.js的208、212、216、220行 ///以及 ST.ux.ParamsUtil.js的真实路径作为参考
